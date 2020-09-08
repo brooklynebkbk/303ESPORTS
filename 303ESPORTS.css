@@ -1,0 +1,3818 @@
+
+@font-face {
+  font-family: "Teko";
+  src: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea733c33bd3d336cd01a226/1588016068517/Teko-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebb043ea678a31bba800053/1589314623455/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: 'Roboto Condensed', sans-serif; src: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+}
+div#downarrow {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f0770541041020f3c46e0b3/1594323028045/dropdown-arrow.png"), !important;
+  z-index: 100;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .4;
+}
+@media (max-width: 1339px) {
+div#downarrow {
+  height: 40px;
+  width: 5%;
+  position: absolute;
+  top: 78vh;
+  margin-left: 47.8%;
+}
+}
+@media (min-width: 1340px) {
+div#downarrow {
+  height: 40px;
+  width: 3%;
+  position: absolute;
+  top: 75vh;
+  margin-left: 49%;
+  }
+}
+ul.itemlist.itemlist--iseventscollection {
+  height: 120px;
+  overflow: scroll;
+  padding: 8px;
+}
+header#header {
+  background-color: #061A1E;
+  box-shadow: 0 8px 12px -4px #1D3135;
+}
+//header bg color
+#collection-5e9f5c875dc0d338efad496f header#header {
+  z-index: -1;
+}
+header#header.appear {
+  animation: .8s fadeIn .5s ease-in 1 forwards;
+}
+@keyframes fadeIn {
+  0% {
+    top: 0px;
+    opacity: 0;
+    z-index: -1
+
+  }
+  40% {
+    opacity: 0;
+    top: 120px;
+  }
+  70% {
+    top: 0px;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+    z-index: 20;
+  }
+}
+body#collection-5ec07f077e00fb72ee578b84 {
+  background-color: #061A1E !important;
+}
+@media(min-width: 800px) {
+div#fixedEventFrags {
+  position: fixed;
+  width: 138%;
+  height: 1000px;
+  top: -20%;
+  margin-left: -30%;
+  z-index: -10;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ec977ebe8296a24e126394e/1590261740272/fragments.png"), !important;
+  background-size: 70%;
+  background-repeat: repeat-x;
+  opacity: .7;
+  background-position: left;
+  animation: eventFloat 280s 0s linear infinite;
+  transform: rotate(-40deg);
+}
+}
+@keyframes eventFloat {
+  0% {
+    background-position: center left -100%;
+  }
+  100% {
+    background-position: center right -268%;
+  }
+}
+body#collection-5ec07f077e00fb72ee578b84 div.sqs-events-collection-list {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+@media (min-width: 1280px) {
+body#collection-5ec07f077e00fb72ee578b84 div.sqs-events-collection-list {
+  width: 70%;
+  margin: 0 auto;
+}
+}
+body#collection-5eea9257e369417f030ed21a {
+  background-color: #061A1E !important;
+}
+body#collection-5e9dd3cca8eb357cc3ffd101 {
+  background-color: #061A1E !important;
+}
+//bg on merch and career page
+//@media (min-width: 800px) {
+div#bigLogobg {
+  position: fixed;
+  z-index: -10;
+  opacity: .09;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ec949488e07a301b0ee23b9/1590249801010/official+copy.png") !important;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(30deg) skewY(-2deg);
+}
+@media (max-width: 799px) {
+div#bigLogobg {
+  width: 100%;
+  height: 120%;
+  background-size: 105%;
+  top: -10%;
+  left: -50px;
+}
+}
+@media (min-width: 800px) {
+div#bigLogobg {
+  width: 100%;
+  height: 120%;
+  background-size: 55%;
+  top: -10%;
+  left: -190px;
+}
+}
+body#collection-5e9dd15bef40b82218268e0d {
+  background-color: #061A1E !important;
+}
+body#collection-5e9f53a25dc0d338efaaf945 {
+  background-color: #061A1E !important;
+}
+body#collection-5ea243eb96f70b0b68bfa2fb {
+  background-color: #061A1E !important;
+}
+body#collection-5e9dd2291559011cde2bffeb {
+  background-color: #061A1E !important;
+}
+body#collection-5ea22e57f2d2d76ff36a7ac9 {
+  background-color: #061A1E !important;
+}
+body#collection-5ea22eee4475373b3d688a0c {
+  background-color: #061A1E !important;
+}
+body#collection-5ea22f3b1368671758d04712 {
+  background-color: #061A1E !important;
+}
+body#collection-5ea22fba4475373b3d68ac88 {
+  background-color: #061A1E !important;
+}
+body#collection-5ebc53a538eb072b90972d4e {
+  background-color: #061A1E !important;
+}
+body#collection-5ec1a47e57dcf4405a64ac60 {
+  background-color: #061A1E !important;
+}
+body#collection-5ee2488803bc7a19dfd96714 {
+  background-color: #061A1E !important;
+}
+body#collection-5eebe69d8c356f05cc727af6 {
+  background-color: #061A1E !important;
+}
+body#collection-5ec1a47e57dcf4405a64ac60 h3 {
+  color: #061A1E !important;
+}
+body#collection-5f077d966802062f6fc63c06 {
+  background-color: #061A1E !important;
+}
+//signup temp text color
+body#collection-5e9dd3cca8eb357cc3ffd101 h3 {
+  color: #F5FBEF;
+}
+body#collection-5e9dd3cca8eb357cc3ffd101 p {
+  color: #F5FBEF;
+}
+body#collection-5e9f53a25dc0d338efaaf945 h3 {
+  color: #F5FBEF;
+}
+body#collection-5e9f53a25dc0d338efaaf945 p {
+  color: #F5FBEF;
+}
+//playing with text styling
+#collection-5e9f5c875dc0d338efad496f h1 {
+  font-family: "Teko"!important;
+  font-size: 84px !important;
+  text-align: center;
+  padding-top: 60px;
+  text-shadow:
+    -1px -1px 0 #527573,
+    0px 0px 0 #527573,
+    -1px 2px 0 #527573,
+     2px 2px 0 #ADBDB6;
+  position: relative;
+  top: 420px;
+  z-index: 30;
+  display: flex;
+  opacity: 0;
+  color: #ADBDB6;
+}
+@keyframes bounce {
+  0% {
+
+    margin-top: 0px;
+  }
+  5% {
+
+    margin-top: 20px;
+  }
+  10% {
+
+    margin-top: 10px;
+  }
+  15% {
+
+    margin-top: 20px;
+  }
+  20% {
+
+    margin-top: 0px;
+  }
+  100% {
+
+    margin-top: 0px;
+  }
+}
+.beforeScroll {
+  animation: 3.6s bounce 3s ease-in-out infinite;
+}
+@media (max-width: 479px) {
+  .beforeScroll {
+    animation: none;
+  }
+}
+@media (max-width: 1439px){
+#textBlock {
+  width: 200%;
+  margin-left: -50%;
+  position: relative;
+  z-index: 30;
+}
+}
+@media (min-width: 1440px){
+  #textBlock {
+  width: 180%;
+  margin-left: -30%;
+  position: relative;
+  z-index: 30;
+}
+}
+@media (max-height: 800px) {
+  #collection-5e9f5c875dc0d338efad496f h1 {
+    margin-top: 0px;
+  }
+}
+@media (min-height: 801px) and (max-height: 1080px) {
+  #collection-5e9f5c875dc0d338efad496f h1 {
+    margin-top: 300px;
+  }
+}
+@media (min-height: 1081px) {
+  #collection-5e9f5c875dc0d338efad496f h1 {
+    margin-top: 500px;
+  }
+}
+@keyframes scrollin {
+  0% {
+    opacity: 0;
+    top: 420px;
+    zoom: 1;
+    z-index: 30;
+  }
+  1% {
+    opacity: 1;
+  }
+  30% {
+    top: 420px;
+    zoom: 1.1;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+    top: 10px;
+    zoom: 1;
+    z-index: 0;
+  }
+}
+.scrollUp {
+  animation: 1s scrollin .3s ease-in-out 1 forwards;
+  background-color: #ffffff00;
+}
+@media (max-width: 539px) {
+  body#collection-5e9f5c875dc0d338efad496f {
+    background-size: 68%;
+}
+}
+@media (min-width: 540px) {
+  body#collection-5e9f5c875dc0d338efad496f {
+    background-size: 40%;
+  }
+}
+body#collection-5e9f5c875dc0d338efad496f {
+  background-color: #061A1E;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ec04b879974cb409fe2af9e/1589660551568/subtle.png"), !important;
+  background-repeat: repeat-y;
+  animation: float 450s infinite linear;
+}
+@keyframes float {
+  0% {
+    background-position: left 48% bottom;
+  }
+  100% {
+    background-position: left 48% top;
+  }
+}
+//logo positioning
+@media(min-width: 540px) {
+div.header-title-logo {
+  position: relative;
+  z-index: 30;
+  margin-left: -24px;
+  margin-top: -0px;
+}
+}
+//nav "home" hidden
+.header-nav-item:nth-child(1) > a {
+  visibility: hidden;
+}
+//nav "events" positioning
+@media (max-width: 1279px) {
+  .header-nav-item:nth-child(2) > a {
+    position: absolute;
+      top: 36px;
+      left: 140px;
+      z-index: 30;
+    }
+}
+@media (min-width: 1280px) {
+  .header-nav-item:nth-child(2) > a {
+      position: fixed;
+      top: 56px;
+      left: 180px;
+      z-index: 30;
+    }
+}
+//nav "teams" positioning
+.header-nav-item:nth-child(3) > a {
+  position: relative;
+  z-index: 30;
+}
+//nav "news" positioning
+.header-nav-item:nth-child(4) > a {
+  position: relative;
+  z-index: 30;
+}
+//nav "merch" positioning
+.header-nav-item:nth-child(5) > a {
+  position: relative;
+  z-index: 30;
+}
+//nav "sign up" positioning
+.header-nav-item:nth-child(6) > a {
+  position: relative;
+  z-index: 30;
+}
+//nav text color on hover
+div.header-nav-item:hover > a {
+  color: #FD9F3D !important;
+  opacity: 1 !important;
+}
+div.header-nav-item > a {
+  color: #ADBDB6 !important;
+  opacity: 1 !important;
+}
+//sub nav text on hover
+div.header-nav-folder-item:hover > a {
+  //color: #FD9F3D !important;
+  color: #061A1E !important;
+}
+//spacing for folder items
+@media(max-width: 999px) {
+  .header-nav-folder-item {
+    height: 16px !important;
+    zoom: .7;
+    left: -400%;
+    padding-top: -40px;
+    padding: 50px;
+    width: 240%;
+}
+}
+@media (min-width: 1000px) and (max-width: 1439px) {
+.header-nav-folder-item {
+  padding: 40px;
+  width: 200%;
+}
+}
+@media (min-width: 1440px) {
+.header-nav-folder-item {
+  padding: 56px;
+  width: 280%;
+}
+}
+//pubg in sub nav
+@media (max-width: 1439px){
+div.header-nav-folder-item:nth-child(1) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  padding-left: 260%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media (min-width: 1440px){
+  div.header-nav-folder-item:nth-child(1) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  padding-left: 460%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//valorant in sub nav
+@media (max-width: 1439px){
+div.header-nav-folder-item:nth-child(2) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media(min-width: 1440px) {
+  div.header-nav-folder-item:nth-child(2) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//rl in sub nav
+@media (max-width: 1439px){
+div.header-nav-folder-item:nth-child(7) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media (min-width: 1440px) {
+ div.header-nav-folder-item:nth-child(7) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//cs:go in sub nav
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(4) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media (min-width: 1440px) {
+ div.header-nav-folder-item:nth-child(4) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//R6 in sub nav
+@media (max-width: 1439px){
+div.header-nav-folder-item:nth-child(6) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(6) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  //padding-right: 300%;
+  padding-top: 130%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//overwatch in sub nav
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(3) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media (min-width: 1440px) {
+ div.header-nav-folder-item:nth-child(3) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//apex in sub nav
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(5) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  padding-left: 60%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media (min-width: 1440px) {
+ div.header-nav-folder-item:nth-child(5) {
+  background-color: #061A1E;
+  //padding-right: 160%;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//streamteam in sub nav
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(8) {
+  background-color: #061A1E;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  padding-left: 60%;
+  position: relative;
+  right: 536%;
+  height: 46px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+@media (min-width: 1440px) {
+ div.header-nav-folder-item:nth-child(8) {
+  background-color: #061A1E;
+  padding-right: 160%;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 130%;
+  position: relative;
+  right: 780%;
+  height: 56px;
+  margin-top: -120px;
+  z-index: -1;
+}
+}
+//nav folder layout
+div.header-nav-folder-content {
+  flex-direction: row;
+  display: flex;
+  height: 0px;
+  position: relative;
+  align-content: flex-start;
+}
+//nav folder items
+div.header-nav-folder-item > a {
+  color: #F5FBEF !important;
+  visibility: hidden;
+}
+//events coloring on events page
+#collection-5ec07f077e00fb72ee578b84 div.header-nav-item:nth-child(2) > a {
+  color: #FD9F3D !important;
+}
+#collection-5ec07f077e00fb72ee578b84 p {
+  color: #F5FBEF;
+}
+//teams coloring on teams page
+#collection-5ea243eb96f70b0b68bfa2fb div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//news coloring on merch page
+#collection-5ec1a47e57dcf4405a64ac60
+div.header-nav-item:nth-child(4) > a {
+  color: #FD9F3D !important;
+}
+//merch coloring on merch page
+#collection-5eea9257e369417f030ed21a
+div.header-nav-item:nth-child(5) > a {
+  color: #FD9F3D !important;
+}
+//signup coloring on signup
+#collection-5e9dd3cca8eb357cc3ffd101 div.header-nav-item:nth-child(6) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on pubg
+#collection-5e9dd2291559011cde2bffeb div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on apex
+#collection-5ea22e57f2d2d76ff36a7ac9 div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on rl
+#collection-5ea22eee4475373b3d688a0c div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on csgo
+#collection-5ea22f3b1368671758d04712 div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on r6
+#collection-5ea22fba4475373b3d68ac88 div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on overwatch
+#collection-5f077d966802062f6fc63c06 div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on apex
+#collection-5ebc53a538eb072b90972d4e div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//teams coloring on streamers
+#collection-5ee2488803bc7a19dfd96714 div.header-nav-item:nth-child(3) > a {
+  color: #FD9F3D !important;
+}
+//mountain footer
+@media (max-width: 479px) {
+  footer {
+    position: fixed;
+    background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea074fafae144382bd720b9/1587574011300/MountainRange.png");
+    background-size: 790px 136px;
+    background-repeat: no-repeat;
+    background-position: bottom left 20%;
+    width: 100%;
+    bottom: -6%;
+    left: 0%;
+    z-index: 20;
+    height: 120px;
+  }
+}
+@media (min-width: 480px) {
+footer {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea074fafae144382bd720b9/1587574011300/MountainRange.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea074fafae144382bd720b9/1587574011300/MountainRange.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea074fafae144382bd720b9/1587574011300/MountainRange.png") !important;
+  -webkit-background-size: 790px 115px, 790px 115px, 790px 115px;
+  -moz-background-size: 790px 115px, 790px 115px, 790px 115px;
+  -ms-background-size: 790px 115px, 790px 115px, 790px 115px;
+  -o-background-size: 790px 115px, 790px 115px, 790px 115px;
+  background-size: 790px 115px, 790px 115px, 790px 115px;
+  -webkit-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -webkit-background-position: left 728px bottom -.2%, left bottom -.2%;
+  -moz-background-position: left 728px bottom -.2%, left bottom -.2%;
+  -ms-background-position: left 728px bottom -.2%, left bottom -.2%;
+  -o-background-position: left 728px bottom -.2%, left bottom -.2%;
+  background-position: left 728px bottom -.2%, left bottom -.2%;
+  position: fixed;
+  width: 100%;
+  bottom: -6%;
+  left: 0%;
+  z-index: 20;
+  height: 120px;
+}
+}
+@media (min-width: 1280px) {
+#extendedMtn {
+  width: 790px;
+  height: 115px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea074fafae144382bd720b9/1587574011300/MountainRange.png") !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  position: fixed;
+  //bottom: -.2%;
+  bottom: -6.2%;
+  left: 1516px;
+  z-index: 90;
+}
+}
+//pubg teams sub nav logo
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(1) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3a983b33b7bb000252e/1587585961651/pubg.png") !important;
+  background-size: 105px 105px;
+  background-repeat: no-repeat;
+  background-position: right 7% bottom 20%;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(1) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3a983b33b7bb000252e/1587585961651/pubg.png") !important;
+  background-size: 105px 105px;
+  background-repeat: no-repeat;
+  background-position: right 2% bottom 19%;
+}
+}
+//hover reaction pubg
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(1):hover {
+  background-position: right 7% bottom 15%;
+  cursor: pointer;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(1):hover {
+  background-position: right 2% bottom 14%;
+  cursor: pointer;
+}
+}
+//valorant teams sub nav logo
+.header-nav-folder-item:nth-child(2) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0511bfd61474178e10290/1588613404249/valorant.png") !important;
+  background-size: 90px 63px;
+  background-repeat: no-repeat;
+  background-position: left 50% bottom 22%;
+}
+//hover reaction valorant
+div.header-nav-folder-item:nth-child(2):hover {
+  background-position: left 50% bottom 14%;
+  cursor: pointer;
+}
+//rl teams sub nav logo
+@media (max-width: 999px) {
+.header-nav-folder-item:nth-child(7) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3baa1d16a570b83679d/1587585978775/rl.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea9f1e6d5d6fd45de60f438/1588195815106/rl.png") !important;
+  background-size: 76px 68px, 110px 40px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 50% bottom 16%, left 0% bottom 33%;
+}
+}
+@media (min-width: 1000px) and (max-width: 1439px) {
+.header-nav-folder-item:nth-child(7) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3baa1d16a570b83679d/1587585978775/rl.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea9f1e6d5d6fd45de60f438/1588195815106/rl.png") !important;
+  background-size: 76px 68px, 110px 40px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 50% bottom 16%, right 138% bottom 38%;
+}
+}
+@media (min-width: 1440px) {
+.header-nav-folder-item:nth-child(7) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3baa1d16a570b83679d/1587585978775/rl.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea9f1e6d5d6fd45de60f438/1588195815106/rl.png") !important;
+  background-size: 74px 62px, 100px 38px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 18% bottom 17%, left -23% bottom 35%;
+}
+}
+//hover reaction rocketleague
+@media (max-width: 999px) {
+div.header-nav-folder-item:nth-child(7):hover {
+  background-position: left 50% bottom 11%, left 0% bottom 28%;
+  cursor: pointer;
+}
+}
+@media (min-width: 1000px) and (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(7):hover {
+  background-position: left 50% bottom 11%, right 138% bottom 33%;
+  cursor: pointer;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(7):hover {
+  background-position: left 18% bottom 13%, left -23% bottom 31%;
+  cursor: pointer;
+}
+}
+//csgo teams sub nav logo
+@media (max-width: 1439px) {
+.header-nav-folder-item:nth-child(4) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a39da4c41b761667bb22/1587585950201/csgo.png") !important;
+  background-size: 90px 74px;
+  background-repeat: no-repeat;
+  background-position: left 49% bottom 22%;
+}
+}
+@media (min-width: 1440px) {
+.header-nav-folder-item:nth-child(4) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a39da4c41b761667bb22/1587585950201/csgo.png") !important;
+  background-size: 94px 76px;
+  background-repeat: no-repeat;
+  background-position: left 35% bottom 21%;
+}
+}
+//hover reaction csgo
+@media(max-width: 1439px) {
+div.header-nav-folder-item:nth-child(4):hover {
+  background-position: left 49% bottom 17%;
+  cursor: pointer;
+}
+}
+@media(min-width: 1440px) {
+div.header-nav-folder-item:nth-child(4):hover {
+  background-position: left 35% bottom 17%;
+  cursor: pointer;
+}
+}
+//r6 teams sub nav logo
+@media (max-width: 1439px){
+.header-nav-folder-item:nth-child(6) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3b24f7ced4d60fc3f9f/1587585970646/r6.png") !important;
+  background-size: 88px 82px;
+  background-repeat: no-repeat;
+  background-position: left 50% bottom 22%;
+}
+}
+@media (min-width: 1440px){
+.header-nav-folder-item:nth-child(6) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3b24f7ced4d60fc3f9f/1587585970646/r6.png") !important;
+  background-size: 80px 72px;
+  background-repeat: no-repeat;
+  background-position: left 50% bottom 21%;
+}
+}
+//hover reaction r6
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(6):hover {
+  background-position: left 50% bottom 17%;
+  cursor: pointer;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(6):hover {
+  background-position: left 50% bottom 16%;
+  cursor: pointer;
+}
+}
+//overwatch sub nav logo
+@media (max-width: 1439px) {
+.header-nav-folder-item:nth-child(3) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f078083c8e005411f9e4827/1594327172170/overwatchlogo.png") !important;
+  background-size: 130px 80px;
+  background-repeat: no-repeat;
+  background-position: left 50% bottom 20%;
+}
+}
+@media (min-width: 1440px) {
+.header-nav-folder-item:nth-child(3) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f078083c8e005411f9e4827/1594327172170/overwatchlogo.png") !important;
+  background-size: 130px 82px;
+  background-repeat: no-repeat;
+  background-position: left 40% bottom 20%;
+}
+}
+//hover reaction overwatch
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(3):hover {
+  background-position: left 50% bottom 14%;
+  cursor: pointer;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(3):hover {
+  background-position: left 40% bottom 13%;
+  cursor: pointer;
+}
+}
+//apex sub nav logo
+@media (max-width: 1439px) {
+.header-nav-folder-item:nth-child(5) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebb5e07f9706c600a218390/1589337607758/apex.png") !important;
+  background-size: 108px 70px;
+  background-repeat: no-repeat;
+  background-position: left 50% bottom 20%;
+}
+}
+@media (min-width: 1440px) {
+.header-nav-folder-item:nth-child(5) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebb5e07f9706c600a218390/1589337607758/apex.png") !important;
+  background-size: 108px 70px;
+  background-repeat: no-repeat;
+  background-position: left 50% bottom 20%;
+}
+}
+//hover reaction apex
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(5):hover {
+  background-position: left 50% bottom 14%;
+  cursor: pointer;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(5):hover {
+  background-position: left 50% bottom 13%;
+  cursor: pointer;
+}
+}
+
+//stream team sub nav logo
+@media (max-width: 1439px) {
+.header-nav-folder-item:nth-child(8) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebc8c03cb51d10a41d154ce/1589414915820/twitchfoggy.png") !important;
+  background-size: 120px 110px;
+  background-repeat: no-repeat;
+  background-position: left 10% bottom 16%;
+}
+}
+@media (min-width: 1440px) {
+.header-nav-folder-item:nth-child(8) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebc8c03cb51d10a41d154ce/1589414915820/twitchfoggy.png") !important;
+  background-size: 120px 110px;
+  background-repeat: no-repeat;
+  background-position: left 0% bottom 15%;
+}
+}
+//hover reaction stream team
+@media (max-width: 1439px) {
+div.header-nav-folder-item:nth-child(8):hover {
+  background-position: left 10% bottom 10%;
+  cursor: pointer;
+}
+}
+@media (min-width: 1440px) {
+div.header-nav-folder-item:nth-child(8):hover {
+  background-position: left 0% bottom 9%;
+  cursor: pointer;
+}
+}
+div.top-bun, div.bottom-bun {
+  background-color: #A4B4B1 !important;
+}
+div.header-menu-nav-folder-content {
+  background-color: #061A1E;
+}
+div.header-menu-nav-folder-content > div > a {
+  color: #A4B4B1 !important;
+  font-size: 22px;
+  font-weight: 300;
+}
+//home page content fade in
+#page-section-5eac3bb1c9b8334639352de9 {
+  margin-top: -120px;
+  opacity: 0;
+}
+@media (min-width: 771px) and (max-width: 969px) {
+div#twitch-embed {
+  position: relative;
+  margin-left: 2%;
+  border: 12px solid #324649;
+  zoom: .73;
+  z-index: 20;
+  opacity: 0;
+}
+}
+@media (min-width: 970px) and (max-width: 1169px) {
+div#twitch-embed {
+  position: absolute;
+  border: 12px solid #324649;
+  zoom: .8;
+  z-index: 20;
+  opacity: 0;
+}
+}
+@media (min-width: 1170px) and (max-width: 1439px ) {
+div#twitch-embed {
+  position: absolute;
+  border: 12px solid #324649;
+  zoom: 1;
+  z-index: 20;
+  opacity: 0;
+}
+}
+@media (min-width: 1440px) {
+div#twitch-embed {
+  position: absolute;
+  border: 12px solid #324649;
+  zoom: 1.2;
+  z-index: 20;
+  opacity: 0;
+}
+}
+//styling for mobile
+@media (max-width: 479px) {
+  div#textBlock > h1 {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    font-size: 60px !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+   div#textBlock > h1 {
+     width: 50% !important;
+     position: relative;
+     margin: 0 auto !important;
+     font-size: 70px !important;
+  }
+}
+@media (max-width: 770px) {
+  div#secOne {
+    padding-bottom: 28% !important;
+  }
+}
+@media (max-width: 770px) {
+  div#secTwo {
+    padding-bottom: 50% !important;
+  }
+}
+@media (max-width: 770px) {
+  h2.threedoes {
+    zoom: .9;
+  }
+}
+@media (max-width: 770px) {
+  div.highlightedImg {
+    width: 350px !important;
+    margin: 0 auto !important;
+  }
+}
+@media (max-width: 770px) {
+  div.highlightedInfo {
+    width: 100% !important;
+    top: 0px !important;
+    position: relative;
+    left: 0% !important;
+  }
+}
+@media (max-width: 770px) {
+  div#competesInfo {
+    top: 20px !important;
+  }
+}
+@media (max-width: 770px) {
+  div#streamsInfo {
+    top: 280px !important;
+    width: 200% !important;
+    left: -98% !important;
+  }
+}
+@media (max-width: 770px) {
+  #twitch-embed {
+    zoom: .73 !important;
+    position: absolute;
+    border: 12px solid #324649;
+    margin-top: 5%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 770px) {
+  div#secFour {
+    top: 120px !important;
+  }
+}
+@media (max-width: 770px) {
+  #boxofboxes {
+    flex-direction: column !important;
+    top: 340px !important;
+  }
+}
+@media (max-width: 770px) {
+  .actionBox {
+    position: relative;
+    width: 240px!important;
+    margin: 0 auto;
+    top: 20px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 770px) {
+  #twire {
+    top: 400px !important;
+  }
+}
+@media (min-width: 1024px) {
+  #page-section-5eac3bb1c9b8334639352de9 {
+    margin-top: -240px;
+  }
+}
+div#block-yui_3_17_2_1_1589477097846_6164 {
+  background-color: #061A1E;
+  padding: 10px;
+}
+div#block-yui_3_17_2_1_1589553341828_13073 {
+  position: relative;
+  z-index: 10;
+}
+div#block-yui_3_17_2_1_1589553341828_29023 {
+  position: relative;
+  z-index: 8;
+}
+div#block-yui_3_17_2_1_1589553341828_39102 {
+  position: relative;
+  z-index: 6;
+}
+div#block-yui_3_17_2_1_1588684386253_5348 {
+  position: relative;
+  z-index: 4;
+}
+@media (max-width: 899px) {
+div#hostsBG {
+  height: 400px;
+  width: 100%;
+  padding-top: 80px;
+}
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+div#hostsBG {
+  height: 550px;
+  width: 100%;
+  padding-top: 60px;
+}
+}
+@media (min-width: 1440px) {
+div#hostsBG {
+  height: 550px;
+  width: 100%;
+  padding-top: 0px;
+  margin-top: -10%;
+}
+}
+@media (max-width: 899px) {
+div#competesBG {
+  height: 400px;
+  width: 100%;
+}
+}
+@media (min-width: 900px) {
+div#competesBG {
+  height: 550px;
+  width: 100%;
+}
+}
+@media (max-width: 899px) {
+div#streamsBG {
+  height: 400px;
+  width: 100%;
+}
+}
+@media (min-width: 900px) {
+div#streamsBG {
+  height: 550px;
+  width: 100%;
+}
+}
+@media (max-width: 899px) {
+div#buildsBG {
+  height: 400px;
+  width: 100%;
+}
+}
+@media (min-width: 900px) {
+div#buildsBG {
+  height: 550px;
+  width: 100%;
+}
+}
+h2 {
+  font-family: "Teko"!important;
+  font-size: 76px !important;
+  text-shadow:
+    -1px -1px 0 #527573,
+    0px 0px 0 #527573,
+    -1px 2px 0 #527573,
+     2px 2px 0 #ADBDB6;
+  position: relative;
+  color: #ADBDB6;
+}
+div#secOne {
+  position: relative;
+  top: -420px;
+  width: 96%;
+  margin: 0 auto;
+  height: 0px;
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+  div#secOne {
+    top: -510px;
+  }
+}
+@media (min-width: 1440px) {
+div#secOne {
+  top: -450px;
+  width: 80%;
+  margin: 0 auto;
+}
+}
+div#secTwo {
+  position: relative;
+  top: -290px;
+  width: 96%;
+  margin: 0 auto;
+  height: 0px;
+}
+@media (min-width:900px) and (max-width: 1439px) {
+  div#secTwo {
+  top: -450px;
+  }
+}
+@media (min-width: 1440px) {
+div#secTwo {
+  position: relative;
+  top: -450px;
+  width: 80%;
+  margin: 0 auto;
+}
+}
+div#secTwo > h2 {
+  text-align: right;
+}
+div#secTwo > div > h4 {
+  text-align: right;
+}
+@media (min-width: 900px) {
+  div#secTwo > div > h4 {
+    margin-right: 8%;
+  }
+}
+div#secThree{
+  position: relative;
+  width: 96%;
+  height: 0px;
+  margin: 0 auto;
+  top: -170px;
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+  div#secThree {
+   top: -370px;
+  }
+}
+@media (min-width: 1440px) {
+  div#secThree{
+  position: relative;
+  top: -450px;
+  width: 80%;
+  margin: 0 auto;
+}
+}
+div#secFour {
+  position: relative;
+  width: 96%;
+  margin: 0 auto;
+  height: 0px;
+  top: -70px;
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+  div#secFour {
+    top: -340px;
+  }
+}
+@media (min-width: 1440px) {
+div#secFour {
+  position: relative;
+  top: -450px;
+  width: 80%;
+  margin: 0 auto;
+}
+}
+div#secFour > h2 {
+  text-align: right;
+}
+div#secFour > div > h4 {
+  text-align: right;
+}
+@media (min-width: 900px) {
+  div#secFour > div > h4 {
+    margin-right: 8%;
+  }
+}
+h4 {
+  color: #ADBDB6;
+}
+div.highlighted > h4 {
+  color: #ADBDB6;
+  margin-top: -10px;
+  position: relative;
+}
+div.highlighted > h4 {
+  position: relative;
+  top: -10px;
+  padding-bottom: 0px;
+}
+@media (min-width: 900px) {
+  div.highlighted > h4 {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 899px) {
+div#royaleImg {
+  height: 210px;
+  width: 47%;
+  position: relative;
+  background-color: #324649;
+  top: -26px;
+  margin-left: 0%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0616353413f5fb4c6dab9/1588617579985/Winner+.png"), !important;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  background-position: center;
+}
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+div#royaleImg {
+  height: 280px;
+  width: 42%;
+  position: relative;
+  background-color: #324649;
+  margin-top: -2%;
+  margin-left: 10%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0616353413f5fb4c6dab9/1588617579985/Winner+.png"), !important;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  background-position: center;
+}
+}
+@media (min-width: 1439px) {
+div#royaleImg {
+  height: 340px;
+  width: 42%;
+  position: relative;
+  background-color: #324649;
+  margin-top: -2%;
+  margin-left: 10%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0616353413f5fb4c6dab9/1588617579985/Winner+.png"), !important;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  background-position: center;
+}
+}
+@media (max-width: 899px) {
+div#pcsImg {
+  height: 210px;
+  width: 47%;
+  position: relative;
+  background-color: #324649;
+  margin-top: -4%;
+  margin-left: 53%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f0128e56e62565b9d2e446f/1593911529572/Screen+Shot+2020-07-03+at+2.21.30+PM.png"), !important;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  background-position: center;
+}
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+div#pcsImg {
+  height: 280px;
+  width: 42%;
+  position: relative;
+  background-color: #324649;
+  margin-top: -2%;
+  margin-left: 50%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f0128e56e62565b9d2e446f/1593911529572/Screen+Shot+2020-07-03+at+2.21.30+PM.png"), !important;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  background-position: center;
+}
+}
+@media (min-width: 1439px) {
+div#pcsImg {
+  height: 340px;
+  width: 42%;
+  position: relative;
+  background-color: #324649;
+  margin-top: -2%;
+  margin-left: 50%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f0128e56e62565b9d2e446f/1593911529572/Screen+Shot+2020-07-03+at+2.21.30+PM.png"), !important;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  background-position: center;
+}
+}
+@media (max-width: 612px) {
+  div#streamsImg {
+    margin-left: -10px !important;
+  }
+}
+
+div#streamsImg {
+  background-color: #324649;
+  color: #324649;
+  width: 48%;
+  min-width: 338px;
+  height: 250px;
+  top: -29px;
+  margin-left: -.5%;
+  position: relative;
+}
+@media (min-width: 771px) and (max-width: 899px) {
+  div#streamsImg {
+  background-color: #324649;
+  color: #324649;
+  height: 250px;
+  width: 360px;
+  position: relative;
+  margin-left: 0%;
+  margin-top: 3%;
+}
+}
+@media (min-width: 900px) and (max-width: 999px) {
+  div#streamsImg {
+  background-color: #324649;
+  color: #324649;
+  height: 254px;
+  width: 354px;
+  position: relative;
+  margin-left: 9%;
+  margin-top: 2%;
+}
+}
+@media (min-width: 1000px) and (max-width: 1169px) {
+div#streamsImg {
+  background-color: #324649;
+  color: #324649;
+  height: 270px !important;
+  width: 380px !important;
+  position: relative;
+  margin-left: 9%;
+  margin-top: 2%;
+}
+}
+@media (min-width: 1170px) and (max-width: 1439px) {
+div#streamsImg {
+  background-color: #324649;
+  color: #324649;
+  height: 330px !important;
+  width: 470px !important;
+  position: relative;
+  margin-left: 9%;
+  margin-top: 1%;
+}
+}
+@media (min-width: 1440px) {
+div#streamsImg {
+  background-color: #324649;
+  color: #324649;
+  height: 390px;
+  width: 560px !important;
+  position: relative;
+  margin-left: 11%;
+  margin-top: 1%;
+}
+}
+div#hostsInfo {
+  position: relative;
+  top: -220px;
+  left: 52%;
+  width: 44%;
+  text-align: center;
+  color: #F5FBEF;
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+  div#hostsInfo {
+    top: -230px;
+    width: 34%;
+    left: 56%;
+  }
+}
+@media (min-width: 1440px) {
+  div#hostsInfo {
+    top: -280px;
+    width: 34%;
+    left: 56%;
+  }
+}
+div.highlightedInfo > p > a {
+  font-size: 20px;
+  color: #ADBDB6;
+  font-weight: 500;
+  font-family: "Roboto" !important;
+}
+div.highlightedInfo > a:nth-child(1) > p {
+  padding-bottom: 18px;
+  font-size: 20px !important;
+  color: #ADBDB6;
+  font-weight: 500 !important;
+  font-family: "Roboto" !important;
+}
+div#streamsInfo > a:nth-child(1) > p {
+  font-size: 20px !important;
+  color: #ADBDB6;
+  font-weight: 500 !important;
+  font-family: "Roboto" !important;
+  position: relative;
+  margin-top: -2%;
+}
+@media (max-width: 899px) {
+  div#streamsInfo > a:nth-child(1) > p {
+    margin-top: -5%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1170px) {
+  div#streamsInfo > a:nth-child(1) > p {
+  margin-top: 3%;
+}
+}
+a.toArticle  > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 150px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+a.meetTheTeam > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 150px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 20px;
+}
+div#streamsInfo > a:nth-child(2) > p {
+  width: 150px;
+  text-align: center;
+  left: 24%;
+  top: -200px;
+}
+@media (min-width: 900px) {
+  div#streamsInfo > a:nth-child(2) > p {
+    top: -270px;
+    left: 23%;
+  }
+}
+div#streamsInfo > a:nth-child(3) > p {
+  width: 150px;
+  text-align: center;
+  left: 24%;
+  top: -190px;
+}
+@media (min-width: 900px) {
+  div#streamsInfo > a:nth-child(3) > p {
+    top: -260px;
+    left: 23%;
+  }
+}
+a.toArticle  > p:hover {
+  background-color: #6C787A;
+}
+a.meetTheTeam  > p:hover {
+  background-color: #6C787A;
+}
+a#stats > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 200px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 12px;
+}
+a#stats  > p:hover {
+  background-color: #6C787A;
+}
+a#youtubelink > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 120px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 24px;
+}
+a#youtubelink  > p:hover {
+  background-color: #6C787A;
+}
+a.externalEvent > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 180px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 10px;
+}
+a.externalEvent  > p:hover {
+  background-color: #6C787A;
+}
+a.theTwitter > p {
+  visibility: hidden;
+}
+a.theTwitch > p {
+  visibility: hidden;
+}
+div#competesInfo {
+  position: relative;
+  top: -210px;
+  left: 4%;
+  width: 44%;
+  text-align: center;
+  color: #F5FBEF;
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+  div#competesInfo {
+    top: -260px;
+    width: 34%;
+    left: 12%;
+  }
+}
+@media (min-width: 1440px) {
+  div#competesInfo {
+    top: -300px;
+    width: 34%;
+    left: 12%;
+  }
+}
+div#streamsInfo > a > p {
+  position: relative;
+  top: -220px;
+  left: 52%;
+  width: 44%;
+  text-align: center;
+  color: #F5FBEF;
+}
+@media (min-width: 900px) {
+  div#streamsInfo  > a > p {
+    top: -290px;
+    width: 34%;
+    left: 56%;
+  }
+}
+h4#sponsorText {
+  position: relative;
+  padding-bottom: 0%;
+  text-align: center;
+  top: 180px;
+}
+@media(max-width: 479px) {
+  h4#sponsorText {
+    top: 370px;
+  }
+}
+@media(min-width: 900px) {
+  h4#sponsorText {
+    top: -40px;
+  }
+}
+div#twire {
+  height: 100px;
+  width: 120px;
+  top: 220px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebeefd07160cc328766f84e/1589571537104/twire.png"), !important;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: top;
+  padding-bottom: 200px;
+}
+@media (min-width: 900px) {
+  div#twire {
+    top: -10px;
+    padding-bottom: 100px;
+  }
+}
+@media(max-width: 479px) {
+  .sqs-svg-icon--list {
+      display: flex;
+      flex-direction: row;
+        z-index: 100;
+        position: relative;
+      top: -160px;
+      left: 0px;
+}
+}
+@media (min-width: 480px) {
+.sqs-svg-icon--list {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      margin-left: 1%;
+      margin-top: -25%;
+        z-index: 100;
+}
+}
+@media (min-width: 1439px) {
+  .sqs-svg-icon--list {
+    margin-top: -30%;
+  }
+}
+#collection-5e9dd3cca8eb357cc3ffd101 .sqs-svg-icon--list {
+  left: -93%;
+  margin-top: -53%;
+}
+@media(max-width: 479px) {
+  #collection-5e9dd3cca8eb357cc3ffd101
+.sqs-svg-icon--list {
+      display: flex;
+      flex-direction: row;
+        z-index: 100;
+        position: relative;
+      top: 15px;
+      left: 0px;
+}
+}
+@media (min-width: 1439px) {
+  #collection-5e9dd3cca8eb357cc3ffd101 .sqs-svg-icon--list {
+  left: -93%;
+  margin-top: -61%;
+}
+}
+#collection-5e9dd3cca8eb357cc3ffd101
+div#copyrightBlock {
+  margin-top: -53%;
+  right: -70%;
+}
+@media (min-width: 1439px) {
+  #collection-5e9dd3cca8eb357cc3ffd101
+div#copyrightBlock {
+  margin-top: -63%;
+  right: -70%;
+}
+}
+//social space between
+@media(min-width: 480px) {
+.sqs-svg-icon--list > a {
+  padding-right: 43px;
+}
+}
+@media(max-width: 479px) {
+.sqs-svg-icon--list > a {
+  padding-right: 7.4%;
+}
+}
+//discord social icon
+.sqs-svg-icon--list > a:nth-child(1) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0c6ce5f1e033785799da3/1588643535028/discord-logo.png") !important;
+  background-position: center;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+nav.sqs-svg-icon--list > a:nth-child(1) > div > svg {
+  opacity: 0;
+}
+//liquipedia social icon
+.sqs-svg-icon--list > a:nth-child(7) {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5edbbca195d12324a3016b4f/1591458977436/liquipedia_logo.png") !important;
+  background-position: center;
+  background-size: 26px;
+  background-repeat: no-repeat;
+}
+nav.sqs-svg-icon--list > a:nth-child(7) > div > svg {
+  opacity: 0;
+}
+//positioning of careers link tablet
+div#copyrightBlock {
+  position: relative;
+  margin-top: -25.4%;
+  margin-left: 165%;
+  width: 230px;
+  overflow: visible;
+  z-index: 100;
+  font-size: 17px;
+}
+@media (min-width: 1439px) {
+  div#copyrightBlock {
+    margin-top: -31%;
+    margin-left: 180%;
+  }
+}
+@media (max-width: 479px) {
+  div.landingBlock {
+   background-color: #061A1E;
+   height: 900px;
+   position: absolute;
+   z-index: 30;
+   top: -220px;
+   width: 120%;
+   margin-left: -13%;
+   display: flex;
+  }
+}
+@media (max-height: 800px) and (min-width: 480px) {
+div.landingBlock {
+  background-color: #061A1E;
+  height: 800px;
+  position: absolute;
+  z-index: 30;
+  top: -260px;
+  width: 220%;
+  margin-left: -60%;
+  display: flex;
+}
+}
+@media (min-height: 801px) and (max-height: 1080px){
+div.landingBlock {
+  background-color: #061A1E;
+  height: 1060px;
+  position: absolute;
+  z-index: 30;
+  top: -260px;
+  width: 220%;
+  margin-left: -60%;
+  display: flex;
+}
+}
+@media (min-height: 1081px){
+div.landingBlock {
+  background-color: #061A1E;
+  height: 1400px;
+  position: absolute;
+  z-index: 30;
+  top: -260px;
+  width: 216%;
+  margin-left: -58%;
+  display: flex;
+}
+}
+@media (max-width:479px) {
+  div#largeLogo {
+    background-size: 80%;
+    background-position: center top 33%;
+  }
+}
+@media (min-width:480px) {
+  div#largeLogo {
+    background-size: 40%;
+    background-position: center top 38%;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  div#largeLogo {
+    background-size: 36%;
+    background-position: center top 38%;
+  }
+}
+@media (min-width: 1440px) {
+  div#largeLogo {
+    background-size: 30%;
+    background-position: center top 30%;
+  }
+}
+div#largeLogo {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  height: 120%;
+  width: 40%;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: 0 auto;
+}
+.animateOut {
+  animation: scrollAnimation 1.8s ease-in-out 1 forwards;
+}
+@keyframes scrollAnimation{
+  0% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    margin-top: -260px;
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(90deg);
+    margin-top: -1100px;
+  }
+}
+//home page content fade in
+#page-section-5eaafda47bbc02178b0a030f {
+  opacity: 0;
+}
+@keyframes homeFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.sectionFadeIn {
+  animation: 1s homeFade 1.4s linear 1 forwards;
+}
+//hiddin merch placeholder
+section.collection-type-products {
+  visibility: hidden;
+}
+
+.twitter-block {
+  background-color: white;
+  border: 10px solid #324649 !important;
+  padding-top: 5% !important;
+}
+div.tweet-text {
+  font-size: 14px;
+}
+//the twitter follow button
+#yui_3_17_2_1_1591482893972_381 {
+  position: relative;
+  align-content: center !important;
+  width: 130px;
+  margin: 0 auto;
+}
+div.actionBox {
+  background-color: #061A1E;
+  position: relative;
+  width: 240px;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0 0 14px  #8D9B98;
+}
+div#boxofboxes {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  zoom: .9;
+  top: 120px;
+}
+@media(min-width: 900px) and (max-width: 1199px) {
+  div#boxofboxes {
+  zoom: .9;
+  top: -150px;
+}
+}
+@media (min-width: 900px) and (max-width: 1439px) {
+div#boxofboxes {
+  top: -150px;
+  zoom: .9;
+}
+}
+@media (min-width: 1440px) {
+div#boxofboxes {
+  top: -210px;
+  zoom: 1.05;
+}
+}
+@media (max-width: 1439px){
+div#discord {
+  left: 0%;
+}
+}
+div.actionbg {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eac4ec469be3a0302b98e97/1588350662354/grayscalesmall.png") !important;
+  background-size: 260px 200px;
+  background-repeat: no-repeat;
+  background-position: bottom 60% center;
+}
+div.actionlogo {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 2%;
+  margin: 0 auto;
+}
+div#discordlogo {
+    background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb183890293c02a173665d7/1588691849824/discord+join.png") !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+div#twitterlogo {
+    background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb184fafca301714e441432/1588692219047/twitterfollow.png") !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+div#twitchlogo {
+    background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb1859116dbb37237dddf1a/1588692369663/twitchstream.png") !important;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  left: -6%;
+}
+div.actionbutton {
+  height: 10%;
+  width: 108px;
+  border-radius: 12px;
+  margin-left: 28%;
+  position: absolute;
+  bottom: 10%;
+}
+a.btn {
+  display: flex;
+  position: relative;
+  background-color: #F5FBEF;
+  border-radius: 12px;
+  padding: 4% 6%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a#discordbtn {
+  padding-left: 34px;
+}
+a#twitterbtn {
+  padding-left: 21px;
+}
+a#twitchbtn {
+  padding-left: 20px;
+}
+div.actionbg > h4 {
+  color: #F5FBEF;
+  text-align: center;
+}
+h4.at {
+  font-size: 24px !important;
+}
+div#liquipedia {
+  height: 60px;
+  width: 180px;
+  background-color: #F5FBEF;
+  //background-color: #17334F;
+  transform: rotate(90deg);
+  position: fixed;
+  z-index: 20;
+  right: -80px;
+  top: 40%;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #3D5466;
+}
+div#liquipedia:hover {
+  background-color: #17334F;
+  box-shadow: 0 0 4px #3D5466;
+  transition: .15s;
+}
+div#liquipedia:hover > a > p {
+  color: white;
+  transition: .15s;
+}
+div#liquipedia > a {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+div#liqlogo {
+  position: absolute;
+  height: 34px;
+  width: 50px;
+  left: 12px;
+  top: 22px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5edbc5f9181ec82b519ad52f/1591461369729/liquipedia_logo_og.png"), !important;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#liquipedia > a > p {
+  color: #13293F;
+  //color: white;
+  font-size: 20px !important;
+  margin-left: 74px;
+  margin-top: 22px;
+}
+@media (max-width: 479px) {
+div.teamBlock {
+  background-color: #324649;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 0 3px #8D9B98;
+}
+}
+@media (min-width: 480px) and (max-width: 769px) {
+div.teamBlock {
+  background-color: #324649;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 0 3px #8D9B98;
+  }
+}
+@media (min-width: 770px) and (max-width: 1439px) {
+div.teamBlock {
+  background-color: #324649;
+  width: 180%;
+  margin-left: -40%;
+  position: relative;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 0 3px #8D9B98;
+}
+}
+@media (min-width: 1440px) {
+div.teamBlock {
+  background-color: #324649;
+  position: relative;
+  width: 130%;
+  margin-left: -15%;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 0 3px #8D9B98;
+}
+}
+@media (min-width: 700px) {
+div.teamBlock > div:nth-child(2) {
+  height: 120px;
+  width: 100px;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  margin-left: -4%;
+  margin-top: 8%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 94%;
+  background-repeat: no-repeat;
+}
+}
+@media (max-width: 479px) {
+  div.teamBlock > h3 {
+    padding-left: 6%;
+  }
+}
+@media (min-width: 480px) {
+  div.teamBlock > h3 {
+    padding-left: 14%;
+  }
+}
+div.teamBlock > h3 {
+  color: #F5FBEF;
+  position: relative;
+  padding-top: 3%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+div.teamBlock > h3:hover {
+  text-decoration: underline;
+}
+div.teamBlock > div > div > a > h4 {
+  top: -20%;
+  position: relative;
+}
+div.contentCont {
+  width: 90%;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+}
+@media (max-width: 479px) {
+  div.eventInfo {
+    margin-left: 2%;
+  }
+}
+@media (min-width: 479px) {
+  div.eventInfo {
+    margin-left: 10%;
+  }
+}
+div.eventInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+  color: #F5FBEF;
+}
+div.eventInfo > a > h4 {
+  color: #F5FBEF;
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+div.eventInfo > a > h4:hover {
+  text-decoration: underline;
+}
+div.eventInfo > p:nth-child(2) {
+  padding-bottom: 6%;
+}
+div.eventInfo > p {
+  position: relative;
+  text-align: left;
+  margin-top: -1%;
+  margin-bottom: 0px;
+}
+div.eventInfo > a {
+  text-align: left;
+}
+div.eventInfo > a:hover {
+  //text-decoration: underline;
+  color: #FD9F3D;
+}
+div.teamBlock > div > div > a > p {
+  margin-top: 0px;
+}
+div.teamBlock > div > div > p > a {
+  color: #F5FBEF;
+}
+div.teamBlock > div > div > p > a:hover {
+  color: #FD9F3D;
+}
+div.teamBlock > div > div > p:nth-child(3) {
+  width: 97%;
+  padding-left: 34px;
+  margin-left: -10px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb184fafca301714e441432/1588692219047/twitterfollow.png"), !important;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: left 9px center;
+}
+@media (max-width: 479px) {
+  div.logoholder {
+    height: 140px;
+    width: 50%;
+  }
+}
+@media (min-width: 480px) and (max-width: 899px) {
+  div.logoholder {
+    height: 80%;
+    width: 30%;
+  }
+}
+@media (min-width: 900px){
+  div.logoholder {
+    height: 90%;
+    width: 28%;
+  }
+}
+div.logoholder {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    bottom: 0px;
+    opacity: .15;
+}
+div#pubglogoholder, div#pubgAlogoholder, div#pubgMlogoholder {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3a983b33b7bb000252e/1587585961651/pubg.png") !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top 30%;
+}
+div#valOlogoholder, div#valBlogoholder {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0511bfd61474178e10290/1588613404249/valorant.png") !important;
+  background-size: 96%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+div#rllogoholder {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3baa1d16a570b83679d/1587585978775/rl.png") !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#csgologoholder {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a39da4c41b761667bb22/1587585950201/csgo.png") !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+div#r6logoholder {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3b24f7ced4d60fc3f9f/1587585970646/r6.png") !important;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#overwatchlogoholder {
+    background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f078083c8e005411f9e4827/1594327172170/overwatchlogo.png") !important;
+  background-size: 108%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+div#apexlogoholder {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebb5e07f9706c600a218390/1589337607758/apex.png") !important;
+  background-size: 92%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  bottom: -4%;
+}
+div#streamlogoholder {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebc8c03cb51d10a41d154ce/1589414915820/twitchfoggy.png") !important;
+  background-size: 102%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  bottom: -12%;
+}
+div.hoverOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  //background-color: #003C2A;
+  background-color: #657E7F;
+  opacity: 0;
+  border-radius: 12px;
+}
+div.teamBlock:hover > div.hoverOverlay {
+  opacity: .3;
+}
+div#block-yui_3_17_2_1_1588957255891_12106 {
+  background-color: #061A1E;
+  padding: 14px;
+}
+@media (max-width: 759px) {
+  h2 {
+    font-size: 58px !important;
+  }
+}
+div.itsateam {
+  background-color:  #061A1E;
+  width: 130%;
+  position: relative;
+  margin-left: -15%;
+  border-radius: 12px;
+  box-shadow: 0 0 16px  #8D9B98;
+}
+@media (max-width: 759px) {
+  div.itsateam {
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1440px) {
+div.itsateam {
+  width: 94%;
+  position: relative;
+  margin: 0 auto;
+}
+}
+@media (min-width: 759px) and (max-width: 1439px) {
+div#pubgteam, div#pubgAteam, div#pubgMteam {
+  width: 96%;
+  margin: 0 auto;
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3a983b33b7bb000252e/1587585961651/pubg.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 8%, 7.3%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 2% right 2%, bottom 3% left 2%;
+}
+}
+@media (min-width: 1440px) {
+  div#pubgteam, div#pubgAteam, div#pubgMteam {
+  width: 70.8%;
+  margin: 0 auto;
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3a983b33b7bb000252e/1587585961651/pubg.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 8%, 7.3%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 2% right 2%, bottom 3% left 2%;
+}
+}
+@media (min-width: 759px) {
+div#valorantteam {
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0511bfd61474178e10290/1588613404249/valorant.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 8%, 7.5%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 2% right 2%, bottom 3% left 2%;
+}
+}
+@media (min-width: 759px) {
+div#rocketleagueteam {
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3baa1d16a570b83679d/1587585978775/rl.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 8%, 7.3%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 2% right 2%, bottom 3% left 2%;
+}
+}
+div#csgoproteam {
+  display: none;
+}
+@media (min-width: 759px) {
+div#csgoproteam {
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a39da4c41b761667bb22/1587585950201/csgo.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 8.8%, 7.4%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 2% right 2%, bottom 3% left 2%;
+}
+}
+@media (min-width: 759px) {
+div#rainbowproteam {
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3b24f7ced4d60fc3f9f/1587585970646/r6.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 7%, 7.8%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 2% right 2%, bottom 3% left 2%;
+}
+}
+@media (min-width: 759px) {
+div#overwatchteam {
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f078083c8e005411f9e4827/1594327172170/overwatchlogo.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 10%, 7.5%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 2% right 2%, bottom 3% left 2%;
+}
+}
+@media (min-width: 759px) {
+div#apex {
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebb5e07f9706c600a218390/1589337607758/apex.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 9.4%, 7.3%;
+  background-repeat: no-repeat;
+  background-position: center, bottom 1% right 2%, bottom 3% left 2%;
+}
+}
+@media (min-width: 759px) {
+div#streamteam {
+  background-image : url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebc8c03cb51d10a41d154ce/1589414915820/twitchfoggy.png"), url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea725adf0032f3cbfaf61ec/1588012461542/303-Transparent.png") !important;
+  background-size: 72%, 9.8%, 7.3%;
+  background-repeat: no-repeat;
+  background-position: center, bottom -2% right 2%, bottom 1.5% left 2%;
+}
+}
+@media (max-width: 530px) {
+  div.streamerBoxes {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  div.streamerBoxes {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media (min-width: 768px) and (max-width: 839px) {
+  div.streamerBoxes {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 840px) and (max-width: 1379px) {
+  div.streamerBoxes {
+    width: 130%;
+    margin-left: -15%;
+  }
+}
+@media (min-width: 1340px) {
+  div.streamerBoxes {
+    width: 110%;
+    margin-left: -5%;
+  }
+}
+div.streamerBoxes {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+div.streamerBox {
+  background-color: #061A1E;
+  position: relative;
+  margin-bottom: 40px;
+  width: 22%;
+  max-width: 200px;
+  min-width: 180px;
+  border-radius: 10px;
+  height: 240px;
+  box-shadow: 0 0 14px  #8D9B98;
+}
+div.streamerbg {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eac4ec469be3a0302b98e97/1588350662354/grayscalesmall.png") !important;
+  background-size: 135% 70%;
+  background-repeat: no-repeat;
+  background-position: bottom 60% center;
+}
+div.streamerInfo {
+  width: 100%;
+  heigth: 100%;
+  position: relative;
+  top: 10%;
+}
+@media (max-width: 540px) {
+  div.streamerInfo {
+    top: 6% !important;
+  }
+}
+div.streamerInfo > p:nth-child(3) {
+  position: relative;
+  margin-top: 60px;
+}
+div.space {
+  padding-top: 3%;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 759px) {
+  div.space {
+    flex-direction: column;
+  }
+}
+
+#streamteam > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#streamteam > div > div.player {
+  width: 172px;
+  height: 30px;
+  margin-bottom: 2%;
+}
+#paddingDiv {
+  padding-bottom: 130px;
+  position: relative;
+  width: 0px;
+}
+#streamteam > div > div > a:hover > p.playerRole {
+  color: #FD9F3D !important;
+}
+div#liveStream {
+  height: 60px;
+  width: 180px;
+  background-color: #363E45;
+  transform: rotate(90deg);
+  position: fixed;
+  z-index: 20;
+  right: -80px;
+  top: 40%;
+  border-radius: 12px;
+  box-shadow: 0 0 6px #A4B3B7;
+}
+div#liveStream:hover {
+  background-color: #7835AC;
+  box-shadow: 0 0 4px #D9C1EC;
+  transition: .1s;
+}
+div#liveStream:hover > a > p {
+  color: white;
+  transition: .15s;
+}
+div#liveStream > a {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+div#redDot {
+  position: absolute;
+  height: 32px;
+  width: 48px;
+  left: 4px;
+  top: 26px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb1859116dbb37237dddf1a/1588692369663/twitchstream.png"), !important;
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#liveStream > a > p {
+  color: white;
+  font-size: 20px !important;
+  margin-left: 50px;
+  margin-top: 22px;
+}
+div.player {
+  width: 22%;
+  position: relative;
+  margin-bottom: 8%;
+  //margin-top: 2%;
+  top: 10px;
+}
+@media (max-width: 759px) {
+  div.player {
+    width: 62%;
+    height: 160px;
+    //height: 310px;
+    margin: 0 auto;
+  }
+}
+div.player > a > p {
+  margin: 0px;
+}
+div.coach > a > p {
+  margin: 0px;
+}
+p.playerRole {
+  width: 100%;
+  text-align: center;
+  font-size: 30px !important;
+  font-family: "Teko";
+  margin-bottom: 0px;
+  color: #F5FBEF;
+}
+div.playerPhoto {
+  display: none;
+  position: relative;
+  width: 94%;
+  height: 130px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb608ebb2acbe6aa4ab7895/1588988143657/cam1.jpg") !important;
+  background-size: 105%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px #061A1E solid;
+}
+@media (max-width: 759px) {
+  div.playerPhoto {
+    height: 170px;
+    border: 5px #324649 solid;
+  }
+}
+@media (min-width: 1440px) {
+div.playerPhoto {
+  height: 190px;
+}
+}
+div#playerOne > div.playerPhoto:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6f4b44aa73b0b32bbfad9/1589048502938/cam4.jpg") !important;
+}
+div#playerTwo > div.playerPhoto:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb60a9d0f826758a38b27f2/1588988580596/cam2.jpg") !important;
+}
+div#playerThree > div.playerPhoto:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6f4ae75c2e1070ef1e5ba/1589048495839/cam3.jpg") !important;
+}
+div#playerFour > div.playerPhoto:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb60a9d0f826758a38b27f2/1588988580596/cam2.jpg") !important;
+}
+div#coachOne > div.playerPhoto:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6f4ae75c2e1070ef1e5ba/1589048495839/cam3.jpg") !important;
+}
+div#coachTwo > div.playerPhoto:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6f4b44aa73b0b32bbfad9/1589048502938/cam4.jpg") !important;
+}
+p.playerAt {
+  width: 100%;
+  text-align: center;
+  color: #F5FBEF;
+  font-family: "teko";
+  font-size: 20px !important;
+  margin-bottom: 0px;
+  margin-top: 2%;
+}
+a.playerTwitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.playerTwitter > p {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  padding-left: 21px;
+  color: #F5FBEF;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb184fafca301714e441432/1588692219047/twitterfollow.png"), !important;
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: left -2% center;
+}
+a.playerTwitter:hover {
+  opacity: .8;
+  color: #F5FBEF;
+  text-decoration: underline;
+}
+a.playerTwitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.playerTwitch > p {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  padding-left: 24px;
+  color: #F5FBEF;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb1859116dbb37237dddf1a/1588692369663/twitchstream.png"), !important;
+  background-size: 26px;
+  background-repeat: no-repeat;
+  background-position:  bottom 200% left -4%;
+}
+a.playerTwitch:hover {
+  color: #F5FBEF;
+  text-decoration: underline;
+  opacity: .8;
+}
+a.playerFacebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.playerFacebook > p {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  padding-left: 24px;
+  color: #F5FBEF;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efd1411de39c440def520c8/1593644049415/facebookGaming.png"), !important;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position:  bottom 60% left 6%;
+}
+a.playerFacebook:hover {
+  color: #F5FBEF;
+  text-decoration: underline;
+  opacity: .8;
+}
+a.playerYoutube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.playerYoutube > p {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  padding-left: 23px;
+  color: #F5FBEF;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f3ab9de08cce85bde5164c5/1597684190391/youtubeLogo.png"), !important;
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: left -2% center;
+}
+a.playerYoutube:hover {
+  opacity: .8;
+  color: #F5FBEF;
+  text-decoration: underline;
+}
+div.coachesRow {
+  padding-top: 4%;
+  padding-bottom: 3%;
+  width: 43%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 759px) {
+  div.coachesRow {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+div.coach {
+  width: 45%
+}
+@media (max-width: 759px) {
+  div.coach {
+    height: 160px;
+    width: 131%;
+    margin-left: -14%;
+  }
+}
+div.blockofsignups {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 160%;
+  margin-left: -80%;
+  top: 6px;
+  justify-content: space-between;
+}
+div.blockofsignups > a {
+  background-color: #061A1E;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 10px;
+  text-align: center;
+  color: #F5FBEF;
+}
+div.blockofsignups > a:hover {
+  background-color: #004734;
+}
+//sign up page width tinkeriing
+@media (min-width: 739px) and (max-width: 1099px) {
+body#collection-5e9dd3cca8eb357cc3ffd101 {
+  width: 130%;
+  margin-left: -15%;
+  overflow: hidden;
+}
+}
+@media (min-width: 480px) and (max-width: 1099px) {
+  div.form {
+    width: 340px;
+  }
+}
+@media (min-width: 1399px) {
+  div.form {
+    width: 420px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
+div.form {
+  background-color: #061A1E;
+  position: relative;
+  z-index: 0;
+  background-color: #324649;
+  border-radius: 12px;
+  height: 200px;
+  box-shadow: 0 0 3px #8D9B98;
+}
+div.formbg {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb6dd2d0f826758a39e6e5d/1589042481850/grayscalelarge.png"), !important;
+  background-size: 85% 96%;
+  background-repeat: no-repeat;
+  background-position: center top 0%;
+  opacity: .5;
+}
+div.formGame {
+  position: absolute;
+  height: 90px;
+  width: 100px;
+  bottom: 0px;
+  right: 0px;
+  opacity: .2;
+}
+div#firstForm > div.formGame, div#secondForm > div.formGame {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ebb5e07f9706c600a218390/1589337607758/apex.png"), !important;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+div#thirdForm > div.formGame {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ea0a3b24f7ced4d60fc3f9f/1587585970646/r6.png"), !important;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: top 80% left 90%;
+}
+div#fourthForm > div.formGame {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb0511bfd61474178e10290/1588613404249/valorant.png"), !important;
+  background-size: 88%;
+  background-repeat: no-repeat;
+  background-position: top 80% left 60%;
+}
+div.form > p > a {
+  color: #F5FBEF;
+}
+p.gameFormLevel {
+  position: relative;
+  font-size: 24px !important;
+  padding-top: 12px;
+  padding-left: 6px;
+}
+p.gameFormLevel:hover {
+  text-decoration: underline;
+}
+p.gameFormDate {
+  position: relative;
+  margin-top: -12px;
+  padding-left: 7px;
+}
+p.linkToForm {
+  position: relative;
+  width: 122px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #1F2C32;
+  top: 16%;
+  opacity: .9;
+}
+p.linkToForm:hover {
+  opacity: 1;
+  box-shadow: 0 0 3px #8D9B98;
+}
+a.joinForm {
+  position: absolute;
+  height: 24px;
+  width: 30px;
+  bottom: 12px;
+  left: 12px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ecfe5ae24820605073c2fdd/1590683054395/whitediscordlogo.png"), !important;
+  background-size: 96%;
+  background-repeat: no-repeat;
+  opacity: .7;
+}
+a.joinForm:hover {
+  opacity: 1;
+}
+p {
+  font-family: "Roboto";
+  font-size: 15px !important;
+}
+div#yui_3_17_2_1_1589316067615_298 {
+  max-width: 140px;
+  margin-top: 30px;
+}
+#block-0796071dde21a8e91a16 {
+  background-color: #F5FBEF;
+  box-shadow: 0 0 4px  #527573;
+  border-radius: 4px;
+  padding-top: 8%;
+  opacity: .9;
+}
+div.newsSec {
+  position: relative;
+  z-index: 10;
+}
+@media (max-width: 1280px) {
+#page-section-5ec1a47e57dcf4405a64ac62{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 4%;
+}
+}
+@media (min-width:1281px) {
+  #page-section-5ec1a47e57dcf4405a64ac62{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 4%;
+}
+}
+h3 {
+    position: relative;
+    z-index: 1;
+}
+div#whatIs303Bg {
+  width: 106%;
+  margin-left: -3%;
+  height: 120%;
+  position: absolute;
+  background-color: #F5FBEF;
+  top: -14%;
+  border-radius: 8px;
+}
+@media (max-width: 539px) {
+  div#whatIs303Bg {
+    height: 109%;
+    top: -6%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 540px) and (max-width: 769px) {
+  div#whatIs303Bg {
+    height: 106% !important;
+    top: -10%;
+    width: 114%;
+    margin-left: -7%;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1439px) {
+  div#whatIs303Bg {
+    top: -18%;
+    height: 128%;
+    width: 108%;
+    margin-left: -4%;
+  }
+}
+@media (max-width: 769px) {
+  #block-yui_3_17_2_1_1598713003660_17876 {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 1440px) {
+  div#whatIs303Bg {
+    top: -18%;
+    height: 126%;
+    width: 109%;
+    margin-left: -5.7%;
+  }
+}
+a.toMerch > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 120px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 8px;
+}
+a.toMerch  > p:hover {
+  background-color: #6C787A;
+}
+a.joinTheDiscord > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 176px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 20px;
+}
+a.joinTheDiscord  > p:hover {
+  background-color: #6C787A;
+}
+div#runItBackBg {
+  width: 164%;
+  margin-left: -58.7%;
+  height: 176%;
+  position: absolute;
+  background-color: #F5FBEF;
+  top: -52%;
+  border-radius: 8px;
+}
+@media (max-width: 539px) {
+  div#runItBackBg {
+    height: 236%;
+    top: -124%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 540px) and (max-width: 769px) {
+  div#runItBackBg {
+    height: 194%;
+    top: -84%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1439px) {
+  div#runItBackBg {
+    top: -60%;
+    height: 182%;
+  }
+}
+@media (min-width: 1440px) {
+  div#runItBackBg {
+    top: -60%;
+    height: 178%;
+  }
+}
+a.textLink {
+  color: #2F104A !important;
+  text-decoration: underline;
+}
+a.textLink:hover {
+  color: #531664;
+}
+a#runItBackbutton {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: 50px;
+  width: 240px;
+  background-color: #2F104A;
+  border-radius: 10px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f1dda017fbac53ab409c143/1595791890171/runitback.png"), !important;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+a#runItBackbutton:hover {
+  background-color: #531664;
+  transition: .1s;
+}
+@media(max-width: 539px) {
+  div#block-yui_3_17_2_1_1593909077859_17311 {
+    margin-top: 30%;
+  }
+}
+div#PCS12NewsBg {
+  width: 164%;
+  margin-left: -58.7%;
+  height: 146%;
+  position: absolute;
+  background-color: #F5FBEF;
+  top: -34%;
+  border-radius: 8px;
+}
+@media (max-width: 539px) {
+  div#PCS12NewsBg {
+    height: 178%;
+    top: -70%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 540px) and (max-width: 769px) {
+  div#PCS12NewsBg {
+    height: 194%;
+    top: -84%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1439px) {
+  div#PCS12NewsBg {
+    top: -34%;
+    height: 144%;
+  }
+}
+@media (min-width: 1440px) {
+  div#PCS12NewsBg {
+    top: -53%;
+    height: 162%;
+  }
+}
+div#merchNewsBg {
+  width: 164%;
+  margin-left: -58.7%;
+  height: 138%;
+  position: absolute;
+  background-color: #F5FBEF;
+  top: -25%;
+  border-radius: 8px;
+}
+@media (max-width: 539px) {
+  div#merchNewsBg {
+    height: 160%;
+    top: -52%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 540px) and (max-width: 769px) {
+  div#merchNewsBg {
+    height: 194%;
+    top: -84%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1439px) {
+  div#merchNewsBg {
+    top: -30%;
+    height: 140%;
+  }
+}
+@media (min-width: 1440px) {
+  div#merchNewsBg {
+    top: -38%;
+    height: 147%;
+  }
+}
+a#merchLink > p {
+  background-color: #324649;
+  text-align: center;
+  color: #F5FBEF;
+  width: 180px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 24px;
+}
+a#merchLink  > p:hover {
+  background-color: #6C787A;
+}
+//merch header spacing on small screens
+@media(max-width: 540px) {
+#block-yui_3_17_2_1_1593906856976_15224 {
+  position: relative;
+  padding-top: 120px;
+}
+}
+@media(max-width: 540px) {
+  #block-yui_3_17_2_1_1589749353439_4030 {
+    position: relative;
+    padding-top: 120px;
+  }
+}
+h3#articleTitlePCS {
+  text-align: center;
+  position: relative;
+}
+@media (max-width: 770px) {
+  h3#articleTitlePCS {
+    position: relative;
+    top: 120px;
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 1000px) {
+  h3#articleTitlePCS {
+   width: 110%;
+   margin-left: -5%;
+   zoom: .95;
+  }
+}
+div#royaleNewsBg {
+  width: 164%;
+  margin-left: -58.7%;
+  height: 150%;
+  position: absolute;
+  z-index: 0;
+  background-color: #F5FBEF;
+  top: -34%;
+  border-radius: 8px;
+}
+@media (max-width: 539px) {
+  div#royaleNewsBg {
+    height: 184%;
+    top: -76%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 540px) and (max-width: 769px) {
+  div#royaleNewsBg {
+    height: 194%;
+    top: -84%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1439px) {
+  div#royaleNewsBg {
+    top: -38%;
+    height: 152%;
+  }
+}
+@media (min-width: 1440px) {
+  div#royaleNewsBg {
+    top: -44%;
+    height: 156%;
+  }
+}
+div#pcsNewsBg {
+  width: 164%;
+  margin-left: -58.7%;
+  height: 144%;
+  position: absolute;
+  background-color: #F5FBEF;
+  top: -34%;
+  border-radius: 8px;
+}
+@media (max-width: 539px) {
+  div#pcsNewsBg {
+    height: 180%;
+    top: -72%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 540px) and (max-width: 769px) {
+  div#pcsNewsBg {
+    height: 194%;
+    top: -84%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1439px) {
+  div#pcsNewsBg {
+    top: -40%;
+    height: 150%;
+  }
+}
+@media (min-width: 1440px) {
+  div#pcsNewsBg {
+    top: -60%;
+    height: 171%;
+  }
+}
+@media (max-width: 770px) {
+div#block-yui_3_17_2_1_1589749536544_15028 {
+  margin-top: 34%;
+}
+}
+div#streamNewsBg {
+  width: 164%;
+  margin-left: -58.7%;
+  height: 150%;
+  position: absolute;
+  background-color: #F5FBEF;
+  top: -34%;
+  border-radius: 8px;
+}
+@media (max-width: 539px) {
+  div#streamNewsBg {
+    height: 186%;
+    top: -80%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 540px) and (max-width: 769px) {
+  div#streamNewsBg {
+    height: 194%;
+    top: -74%;
+    width: 116%;
+    margin-left: -10%;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1439px) {
+  div#streamNewsBg {
+    top: -38%;
+    height: 148%;
+  }
+}
+@media (min-width: 1440px) {
+  div#streamNewsBg {
+    top: -45%;
+    height: 156%;
+  }
+}
+#block-yui_3_17_2_1_1589749353439_6963 {
+  position: relative;
+  top: 20px;
+  padding: 6px;
+  background-color: #2C4748;
+  position: relative;
+  z-index: 1;
+  max-width: 380px;
+  margin: 0 auto;
+}
+#block-yui_3_17_2_1_1589749536544_11150  {
+  position: relative;
+  top: 20px;
+  padding: 6px;
+  background-color: #2C4748;
+  position: relative;
+  z-index: 1;
+  max-width: 380px;
+  margin: 0 auto;
+}
+div#streamTeamSlide.merchSection{
+  position: relative;
+  height: 140px;
+  width: 250px;
+  background-color: #F5FBEF !important;
+  z-index: 1;
+}
+div#streamTeamSlide {
+  position: relative;
+  height: 140px;
+  width: 250px;
+  background-color: #2C4748;
+  z-index: 1;
+}
+@media (max-width: 540px) {
+  div#streamTeamSlide {
+    zoom: 1.4;
+    margin-left: -3%;
+  }
+}
+@media (min-width: 1280px) {
+  div#streamTeamSlide {
+    zoom: 1.5;
+    margin-left: -4%;
+  }
+}
+@keyframes animateSlideShow {
+  0% {
+    opacity: 0;
+  }
+  2.5% {
+    opacity: 1;
+  }
+  18% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+div#PCS12NewsImage {
+  position: absolute;
+  height: 94%;
+  width: 96%;
+  margin-left: 2%;
+  top: 3%;
+  background-size: 100%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f0128e56e62565b9d2e446f/1593911529572/Screen+Shot+2020-07-03+at+2.21.30+PM.png") !important;
+}
+div#runItBackImage {
+  position: absolute;
+  height: 94%;
+  width: 96%;
+  margin-left: 2%;
+  top: 3%;
+  background-size: 100%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f1dd7476282737efba98aa1/1595791177786/Screen+Shot+2020-07-26+at+2.51.44+PM.png") !important;
+}
+div#merchItemOne {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  margin-top: -5%;
+  margin-left: 28%;
+  background-size: 100%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe1117c5fd721ee5eb5c0a/1593708823382/simpLGTee.png") !important;
+  background-repeat: no-repeat;
+}
+div#merchItemTwo {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  background-size: 100%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe15829def0e51298f59cf/1593709954359/303hoodie.png") !important;
+  background-repeat: no-repeat;
+}
+div#merchItemThree {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  margin-left: 48%;
+  margin-top: 16%;
+  transform: rotate(20deg);
+  background-size: 100%;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5f012bac2ff82d6fb7c52a88/1593912237079/camofanny.png") !important;
+  background-repeat: no-repeat;
+}
+div.introGraphic {
+  position: absolute;
+  height: 90%;
+  width: 96%;
+  margin-left: 2%;
+  top: 5%;
+  background-size: 100%;
+  opacity: 0;
+}
+div#slideOne {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ee69af176031e0b0e6ba857/1592171255589/Berry+303.png");
+  animation: animateSlideShow 25s infinite 0s;
+}
+div#slideTwo {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ee69bea0948d518c0cdeef0/1592171502297/Scotch.png");
+  animation: animateSlideShow 25s infinite 5s;
+}
+div#slideThree {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ee69c18dd4fcc49481b34c5/1592171548554/mari.png");
+  animation: animateSlideShow 25s infinite 10s;
+}
+div#slideFour {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ee69c40945e9b489ad8d5c1/1592171587324/Welcome+Griffy.png");
+  animation: animateSlideShow 25s infinite 15s;
+}
+div#slideFive {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5ee69c5bc7d20c58c2a7a069/1592171617582/2Capture.PNG");
+  animation: animateSlideShow 25s infinite 20s;
+}
+#calendaryui_3_17_2_1_1590334407462_303_pane_0 a {
+  pointer-events: none;
+}
+#collection-5e9dd3cca8eb357cc3ffd101 div.content {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+div.newsSec > p > a {
+  color: black;
+}
+div.newsSec > p > a:hover {
+  opacity: .7;
+}
+div.eventlist.eventlist--upcoming {
+  position: relative;
+  margin-top: -50px;
+}
+
+div#calendar {
+  opacity: 0;
+  pointer-events: none;
+  height: 60px;
+  width: 180px;
+  background-color: #324649;
+  transform: rotate(90deg);
+  position: fixed;
+  z-index: 20;
+  right: -80px;
+  top: 40%;
+  border-radius: 12px;
+  box-shadow: 0 0 3px #8D9B98;
+}
+div#calendar:hover {
+  background-color: #475A5C;
+}
+div#calendar > a {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+div#callogo {
+  position: absolute;
+  height: 34px;
+  width: 50px;
+  left: 12px;
+  top: 22px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5edc299e89d95f3735dc207f/1591486878630/cal.png"), !important;
+  background-size: 62%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#calendar > a > p {
+  color: #F5FBEF;
+  font-size: 20px !important;
+  margin-left: 72px;
+  margin-top: 23px;
+}
+@media (min-width: 800px) {
+div.sqs-block.twitter-block.sqs-block-twitter {
+  right: 3%;
+}
+}
+div#threeBlurbEvents {
+  //margin-left: -4%;
+  width: 98%;
+}
+div#eventsPgBtns {
+  position: relative;
+  left: -1%;
+}
+a.toArticleEvents > p {
+  background-color: #2C4748;
+  width: 140px;
+  text-align: center;
+  border-radius: 10px;
+  color: #F5FBEF;
+  position: relative;
+  margin: 0 auto;
+  top: 12px;
+}
+a.toArticleEvents > p:hover {
+  background-color: #657E7F;
+}
+a#youtubelinkEvents > p {
+  background-color: #2C4748;
+  width: 118px;
+  text-align: center;
+  border-radius: 10px;
+  color: #F5FBEF;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+a#youtubelinkEvents > p:hover {
+  background-color: #657E7F;
+}
+a#statsEvents > p {
+  background-color: #2C4748;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  color: #F5FBEF;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+a#statsEvents > p:hover {
+  background-color: #657E7F;
+}
+h1.eventlist-title {
+  color: #F5FBEF;
+  cursor: auto;
+  pointer-events: none;
+}
+li.eventlist-meta-item {
+  color: #F5FBEF;
+  margin-top: -10px;
+}
+div.eventlist-excerpt > p:nth-child(1) > a:nth-child(1){
+  width: 200px;
+  border-radius: 10px;
+  padding-left: 28px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb184fafca301714e441432/1588692219047/twitterfollow.png"), !important;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: left 2% center;
+}
+div.eventlist-excerpt > p:nth-child(1) > a:nth-child(1) {
+  color: #F5FBEF;
+}
+div.eventlist-excerpt > p:nth-child(1) > a:nth-child(2) {
+  width: 200px;
+  border-radius: 10px;
+  padding-left: 28px;
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5eb1859116dbb37237dddf1a/1588692369663/twitchstream.png"), !important;
+  background-size: 26px;
+  background-repeat: no-repeat;
+  background-position: left bottom 60%;
+  position: relative;
+  margin-left: 10px;
+}
+div.eventlist-excerpt > p:nth-child(1) > a:nth-child(2) {
+  color: #F5FBEF;
+}
+div.eventlist-excerpt > p:nth-child(2) > a {
+  display: inline-block;
+  background-color: #2C4748;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+div.eventlist-excerpt > p:nth-child(2):hover  > a{
+  background-color: #657E7F;
+}
+div.eventlist-excerpt > p:nth-child(2) > a {
+  color: #F5FBEF;
+}
+img.eventlist-thumbnail {
+  cursor: auto;
+}
+a.eventlist-column-thumbnail {
+  pointer-events: none;
+}
+//merch
+div#visitStore {
+  margin-top: 0px;
+  position: relative;
+  top: -20px;
+  border-radius: 20px;
+  height: 50px;
+  box-shadow: 0 0 6px #8D9B98;
+  width: 360px;
+  margin: 0 auto;
+  background-color: #061A1E;
+  zoom: .9;
+  opacity: .8;
+}
+div#visitStore:hover {
+  transition: .1s;
+  opacity: 1;
+}
+div#visitStore > a {
+  display: block;
+  text-align: center;
+}
+div#visitStore > a > h4 {
+  color: #F5FBEF;
+  font-size: 23px;
+  padding-top: 12px;
+}
+@media(max-width: 1280px) {
+div#merchItems {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+}
+@media(min-width: 1281px) {
+div#merchItems {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+}
+div#merchItems > div {
+  min-width: 330px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+div#merchItems div.merchPhoto {
+  position: relative;
+  height: 90%;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 1;
+  background-size: 94%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+a.merchItemName {
+  color: #F5FBEF;
+  font-size: 22px;
+  font-family: "Teko";
+  position: relative;
+  display: block;
+  text-align: center;
+}
+a.merchItemName:hover {
+  color: #FD9F3D;
+}
+div.merchItem {
+  position: relative;
+  padding-bottom: 8%;
+}
+div#simpleHoodie> a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe0f3a9def0e51298e25c1/1593708347043/simpHoodie.png");
+}
+div#simpleHoodie > a > div:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe10b79e6f9f6043383cbd/1593708728194/simpHoodieBack.png");
+}
+div#simpleTee > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe1117c5fd721ee5eb5c0a/1593708823382/simpLGTee.png");
+}
+div#simpleTee > a > div:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe113bd8f5de3110c47089/1593708860193/simpLGTeeBack.png");
+}
+div#sticker > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe11689e6f9f6043385e9e/1593708905597/simpSticker.png");
+  background-size: 80% !important;
+  background-position: top 70% left 42% !important;
+}
+div#camoPhoneCase > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe129537b0344cd5d61466/1593709205873/camoPhoneCase.png");
+  background-size: 86% !important;
+}
+div#camoSweatshirt > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe12ebb415005eed832414/1593709291988/camoSweatshirt.png");
+}
+div#camoSweatshirt > a > div:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe1432a09c523cbf7f3e1f/1593709618750/camoSweatshirtBack.png");
+}
+div#camoSocks > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe148661ec0f629f5b1b65/1593709703961/camoSocks.png");
+}
+div#logoTee > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe153c842cc9218e870086/1593709884188/303TeeFront.png");
+}
+div#logoTee > a > div:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe14db4f580a489c86f5cc/1593709787671/303TeeBack.png");
+}
+div#logoHoodie > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe15829def0e51298f59cf/1593709954359/303hoodie.png");
+}
+div#logoHoodie > a > div:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe15898bfb3c10aee52777/1593709961604/303HoodieBack.png");
+}
+div#logoLeggings > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe15d72845322eabd2e900/1593710040922/303leggings.png");
+}
+div#logoLeggings > a > div:hover {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe15dfcbffa3052c2b8975/1593710047499/303LeggingsBack.png");
+}
+div#camoPillow > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe16b1529d2c2a9d9dcb20/1593710259058/accCamoPillow.png");
+}
+div#logoTapestry > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efa41e73be8fe6afba0f700/1593459187915/303blanket.png");
+}
+div#logoPoster > a > div {
+  background-image: url("https://static1.squarespace.com/static/5e9dcf50e6df58273a2c9dc8/t/5efe16f0e8a2c9533e7d4dcc/1593710320398/accGrayPoster.png");
+}
+//org styling
+div.orgSection {
+  width: 98%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 8%;
+  padding-top: 4%;
+}
+div.peakMember, div.staffMember {
+  width: 30%;
+}
+div.crestMember {
+  width: 24%;
+}
+div.peakMember > p:nth-child(1), div.crestMember > p:nth-child(1),
+div.staffMember > p:nth-child(1){
+  width: 100%;
+  text-align: center;
+  font-size: 30px !important;
+  font-family: "Teko";
+  margin-bottom: 0px;
+  color: #F5FBEF;
+}
+div.peakMember > p:nth-child(2),
+div.crestMember > p:nth-child(2), div.staffMember > p:nth-child(2){
+  width: 100%;
+  text-align: center;
+  font-size: 17px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top:10px;
+  padding-bottom: 30px;
+  color: #F5FBEF;
+}
